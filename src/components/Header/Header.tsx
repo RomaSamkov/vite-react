@@ -15,7 +15,9 @@ const Header = () => {
           <a href="" className="email">
             info@freshnesecom.com
           </a>
-          <Link to="/products">PRODUCTS</Link>
+          <Link to="/products" className="chat">
+            Products
+          </Link>
         </div>
         <div className="header-links">
           <div className="link">Blog</div>
