@@ -1,4 +1,5 @@
 import "./Header.scss";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -14,6 +15,7 @@ const Header = () => {
           <a href="" className="email">
             info@freshnesecom.com
           </a>
+          <Link to="/products">PRODUCTS</Link>
         </div>
         <div className="header-links">
           <div className="link">Blog</div>
